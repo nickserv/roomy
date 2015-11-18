@@ -1,11 +1,13 @@
 module Roomy
   class Room
+    attr_reader :world, :id
+
     def initialize(world, id, &block)
       @world = world
       @id = id
       @neighbors = {}
       world.rooms[id] = self
-      instance_eval(&block)
+      instance_eval(&block) if block_given?
     end
 
     def description(new_description = nil)

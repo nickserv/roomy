@@ -6,7 +6,7 @@ module Roomy
 
     def initialize(&block)
       @rooms = {}
-      instance_eval(&block)
+      instance_eval(&block) if block_given?
     end
 
     def enter(room)
@@ -40,7 +40,9 @@ module Roomy
       end
     end
 
-    def start(id)
+    def start(id = nil)
+      return @start if id.nil?
+
       @start = id
     end
 
