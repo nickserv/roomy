@@ -1,4 +1,7 @@
 # Roomy
+[![Build Status](https://travis-ci.org/nicolasmccurdy/roomy.svg?branch=master)](https://travis-ci.org/nicolasmccurdy/roomy)
+[![Dependency Status](https://gemnasium.com/nicolasmccurdy/roomy.svg)](https://gemnasium.com/nicolasmccurdy/roomy)
+[![Code Climate](https://codeclimate.com/github/nicolasmccurdy/roomy/badges/gpa.svg)](https://codeclimate.com/github/nicolasmccurdy/roomy)
 
 A simple DSL for building text adventures.
 
