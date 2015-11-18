@@ -1,6 +1,6 @@
 module Roomy
   class World
-    attr_accessor :rooms
+    attr_reader :rooms
 
     PROMPT = "> "
 
