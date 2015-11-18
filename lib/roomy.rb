@@ -1,4 +1,4 @@
-require "roomy/version"
+require 'roomy/version'
 
 module Roomy
   # Your code goes here...
